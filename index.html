@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix It Fer Construction</title>
+
+    <!-- Bootstrap and CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="logo.jpg" alt="Fix It Fer Construction Logo" class="logo-image me-3" style="height: 50px; width: 50px;">
+                <h1 class="h4 logo-text">Fix It Fer Construction</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="#carpentry">Carpentry</a></li>
+                                <li><a class="dropdown-item" href="#remodel">Remodeling</a></li>
+                                <li><a class="dropdown-item" href="#decks">Decks</a></li>
+                                <li><a class="dropdown-item" href="#demolition">Demolition</a></li>
+                                <li><a class="dropdown-item" href="#drywall">Drywall</a></li>
+                                <li><a class="dropdown-item" href="#electrical">Electrical</a></li>
+                                <li><a class="dropdown-item" href="#fascia">Fascia</a></li>
+                                <li><a class="dropdown-item" href="#flooring">Flooring</a></li>
+                                <li><a class="dropdown-item" href="#gutters">Gutters</a></li>
+                                <li><a class="dropdown-item" href="#painting">Painting</a></li>
+                                <li><a class="dropdown-item" href="#masonry">Masonry</a></li>
+                                <li><a class="dropdown-item" href="#plumbing">Plumbing</a></li>
+                                <li><a class="dropdown-item" href="#roofing">Roofing</a></li>
+                                <li><a class="dropdown-item" href="#siding">Siding</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#help">Help</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <!-- hero section -->
+        <section class="hero-container">
+            <div class="overlay">
+                <article class="overlay-content">
+                    <h2 class="overlay-text">You say fix it, we say on it.</h2>
+                    <p class="website-description">That's a promise. (Se habla español!)</p>
+                    <button class="quote-button">Get a Free Quote!</button>
+                </article>
+            </div>
+            <div class="background-video">
+                <iframe 
+                    src="https://www.youtube.com/embed/4BzjUq921Y4?autoplay=1&mute=1&controls=0" 
+                    title="YouTube Video Player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>        
+            </div>
+        </section>
+
+        <!-- services and pricing section -->
+        <section id="pricing" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Services and Pricing</h2>
+                <table class="table table-bordered table-striped pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Estimated Prices</th>
+                            <th>Duration</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Carpentry</td>
+                            <td>$150 - $600</td>
+                            <td>Varies</td>
+                            <td>Custom woodwork, trim installation, repairs</td>
+                        </tr>
+                        <tr>
+                            <td>Remodeling</td>
+                            <td>$1,000 - $10,000</td>
+                            <td>1-5 weeks</td>
+                            <td>Per kitchen, bathroom, or basement renovation</td>
+                        </tr>
+                        <tr>
+                            <td>Decks</td>
+                            <td>$800 - $3,000</td>
+                            <td>1-3 weeks</td>
+                            <td>Wood or composite material options available</td>
+                        </tr>
+                        <tr>
+                            <td>Demolition</td>
+                            <td>$200 - $1,500</td>
+                            <td>1-7 days</td>
+                            <td>Interior or exterior demolition services</td>
+                        </tr>
+                        <tr>
+                            <td>Drywall</td>
+                            <td>$100 - $1,000</td>
+                            <td>1-5 days</td>
+                            <td>Installation, patching, or finishing drywall</td>
+                        </tr>
+                        <tr>
+                            <td>Electrical</td>
+                            <td>$150 - $5,000</td>
+                            <td>Varies</td>
+                            <td>Wiring, lighting installation, panel upgrades</td>
+                        </tr>
+                        <tr>
+                            <td>Fascia</td>
+                            <td>$100 - $800</td>
+                            <td>1-3 days</td>
+                            <td>Repair or replacement of fascia boards</td>
+                        </tr>
+                        <tr>
+                            <td>Flooring</td>
+                            <td>$300 - $6,000</td>
+                            <td>1-3 weeks</td>
+                            <td>Tile, hardwood, laminate, or vinyl installation</td>
+                        </tr>
+                        <tr>
+                            <td>Gutters</td>
+                            <td>$100 - $1,000</td>
+                            <td>1-2 days</td>
+                            <td>Gutter installation, cleaning, or repair</td>
+                        </tr>
+                        <tr>
+                            <td>Painting</td>
+                            <td>$200 - $8,000</td>
+                            <td>1-2 weeks</td>
+                            <td>Interior or exterior painting services</td>
+                        </tr>
+                        <tr>
+                            <td>Masonry</td>
+                            <td>$300 - $5,000</td>
+                            <td>Varies</td>
+                            <td>Brickwork, stone installation, concrete repair</td>
+                        </tr>
+                        <tr>
+                            <td>Plumbing</td>
+                            <td>$200 - $3,000</td>
+                            <td>Varies</td>
+                            <td>Fixture installation, pipe repair, leak detection</td>
+                        </tr>
+                        <tr>
+                            <td>Roofing</td>
+                            <td>$500 - $20,000</td>
+                            <td>1-5 days</td>
+                            <td>Roof installation, repair, or replacement</td>
+                        </tr>
+                        <tr>
+                            <td>Siding</td>
+                            <td>$400 - $15,000</td>
+                            <td>1-3 weeks</td>
+                            <td>Vinyl, wood, or fiber cement siding installation</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- contact Section -->
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <!-- SVG image -->
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#3d2a19" viewBox="0 0 24 24">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.242 7.242L10 15.484l-3.242-3.242a1 1 0 0 1 1.414-1.414l1.828 1.828 6.828-6.828a1 1 0 0 1 1.414 1.414z"/>
+                    </svg>
+                </div>
+                <h2 class="text-center mb-4">Contact Us</h2>
+                <p class="text-center" style="color: #3d2a19; font-size: 18px;">We'd love to hear from you--drop us a message regarding any questions or inquiries. </p>
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Your Phone Number">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        <small id="charCount" class="form-text text-muted">0/250</small>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        <p class="mt-3 mb-4 text-muted">Or reach us at (708) 970-9888. Guaranteed to answer within 24 hours!</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-white py-3 text-center">
+        <p>© 2024 Fix It Fer Construction LLC. All rights reserved.</p>
+       
+        <!-- W3C CSS validation badge -->
+        <div class="validation-badges">
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const phone = document.getElementById("phone").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if (!name) {
+                alert("Please enter your name.");
+                return;
+            }
+
+            if (!phone.match(/^\d{10}$/)) {
+                alert("Please enter a valid 10-digit phone number.");
+                return;
+            }
+
+            if (!message) {
+                alert("Please enter your message.");
+                return;
+            }
+
+            alert("Thank you for reaching out! Your message has been sent.");
+        });
+    </script>
+</body>
+
+</html>

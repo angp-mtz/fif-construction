@@ -1,0 +1,180 @@
+/* body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background-color: #3d2a19 !important;
+    color: #ffffff;
+}
+
+header .logo-text {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* logo image */
+.logo-image {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* navigation menu */
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d4844f;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #000000;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #706e6c;
+    color: #ffffff;
+}
+
+/* main section */
+
+/* hero section */
+.hero-container {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.hero-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 20%, 0.5);
+    z-index: 1;
+}
+
+.overlay-content {
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.overlay-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.website-description {
+    font-size: 20px;
+    color: #dedbdb;
+    margin-bottom: 30px;
+}
+
+.quote-button {
+    background-color: #d4844f;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.quote-button:hover {
+    background-color: #4f7147;
+}
+
+/* pricing table */
+#pricing {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table th {
+    background-color: #3d2a19;
+    color: #ffffff;
+    padding: 12px;
+}
+
+.pricing-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #e7e7e7;
+}
+
+.pricing-table tr:hover {
+    background-color: #ddd;
+}
+
+#contact .text-center svg {
+    margin-bottom: 10px;
+}
+
+#contact .text-center p {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* footer */
+footer {
+    background-color: #3d2a19;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.validation-badges {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.validation-badges p {
+    margin: 0;
+}
+
+/* button */
+.btn-primary {
+    background-color: #d4844f;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4f7147;
+}
